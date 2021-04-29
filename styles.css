@@ -1,0 +1,136 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700');
+
+/* General Styles */
+html, body {
+    font-size: 1.5vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(107, 105, 105);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: rgb(65, 63, 63);
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+p, span {
+    font-size: 0.7em;
+}
+
+@media (max-width: 600px) {
+    p, span {
+        font-size: 0.9em;
+    }
+}
+
+/* INDEX */
+/* Form */
+.main__container {
+    margin: 0 7% 0 7%;
+    padding: 4% 0 2% 0;
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.header__title {
+    margin-bottom: 4%;
+}
+
+.form-task__container {
+    margin-bottom: 3%;
+    border-bottom: 2px solid rgb(151, 150, 150);
+}
+
+.form__task {
+    margin-bottom: 3%;
+}
+
+.input__container {
+    margin-bottom: 2%;
+}
+
+.label__input {
+    display: block;
+    margin-bottom: 1%;
+}
+
+.input__task {
+    width: 85%;
+    height: 2.5em;
+}
+
+.button {
+    background-color: rgb(29, 125, 216);
+    color: #fff;
+    cursor: pointer;
+    padding: 0.9% 1.3%;
+    border: 2px solid rgb(9, 84, 155);
+    border-radius: 4px;
+}
+
+/* Table */
+.table__headers {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1%;
+    border-bottom: 1px solid rgb(151, 150, 150);
+    margin-bottom: 1.5%;
+}
+
+.first-task__header {
+    flex: 0 0 40%;
+}
+
+.task__header {
+    flex: 0 0 20%;
+}
+
+.task__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px/6px;
+    padding: 1.5% 0;
+    margin-bottom: 1.5%;
+    transition: all 500ms linear;
+}
+
+.redTasks {
+    border: 2px solid rgb(245, 59, 59);
+}
+
+.greenTasks {
+    border: 2px solid rgb(8, 218, 96);
+}
+
+.task {
+    flex: 0 0 40%;
+}
+
+.task__column {
+    flex: 0 0 20%;
+}
+
+.delete__task {
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
